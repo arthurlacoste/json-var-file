@@ -24,7 +24,7 @@ exports.get = function(string) {
 exports.save = function(string, JSONvar) {
   fs.writeFile("node_modules/json-var-file/data/" + filenamify(string) + ".json", JSON.stringify(JSONvar), {flag: 'w'}, function (err, data) {
     if (err) {
-      id.log(err) ;
+      console.log(err) ;
     } else if(verbose===true) {
       console.log('The file has been saved!');
     }
