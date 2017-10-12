@@ -1,6 +1,6 @@
 {
   "name": "json-var-file",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "dependencies": {
     "fs": "^0.0.1-security",
     "filenamify": "^2.0.0"
