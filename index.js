@@ -9,7 +9,7 @@ var verbose = false
 
 exports.get = function(string) {
   try {
-    return require(""+filenamify(string)+".json");
+    return require("json-var-file/data/"+filenamify(string)+".json");
   } catch (ex) {
     if(verbose===true) {
       id.log(ex);
@@ -22,7 +22,7 @@ exports.get = function(string) {
 * Save string file with JSONvar variable
 */
 exports.save = function(string, JSONvar) {
-  fs.writeFile("node_modules/" + filenamify(string) + ".json", JSON.stringify(JSONvar), {flag: 'w'}, function (err, data) {
+  fs.writeFile("node_modules/json-var-file/data/" + filenamify(string) + ".json", JSON.stringify(JSONvar), {flag: 'w'}, function (err, data) {
     if (err) {
       id.log(err) ;
     } else if(verbose===true) {
