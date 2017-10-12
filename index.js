@@ -12,7 +12,7 @@ exports.get = function(string) {
     return require("json-var-file/data/"+filenamify(string)+".json");
   } catch (ex) {
     if(verbose===true) {
-      id.log(ex);
+      console.log(ex);
       return false;
     }
   }
