@@ -1,0 +1,25 @@
+{
+  "name": "json-var-file",
+  "version": "1.1.0",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "filenamify": "^2.0.0"
+  },
+  "description": "Store JSON var into a file.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurlacoste/json-var-file.git"
+  },
+  "keywords": [
+    "variable",
+    "json",
+    "file"
+  ],
+  "author": "Arthur Lacoste <arthak@gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/arthurlacoste/json-var-file/issues"
+  },
+  "homepage": "https://github.com/arthurlacoste/json-var-file#readme"
+}
