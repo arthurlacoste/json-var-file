@@ -7,7 +7,7 @@ var verbose = false
 * (called string)
 */
 
-exports.display = function(string) {
+exports.get = function(string) {
   try {
     return require(""+filenamify(string)+".json");
   } catch (ex) {
