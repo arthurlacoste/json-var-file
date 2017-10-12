@@ -1,6 +1,6 @@
 {
   "name": "json-var-file",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "dependencies": {
     "fs": "^0.0.1-security",
     "filenamify": "^2.0.0"
@@ -9,7 +9,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arthurlacoste/json-var-file.git"
+    "url": "https://github.com/arthurlacoste/json-var-file.git"
   },
   "keywords": [
     "variable",
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/arthurlacoste/json-var-file/issues"
   },
-  "homepage": "https://github.com/arthurlacoste/json-var-file#readme"
+  "homepage": "https://github.com/arthurlacoste/json-var-file#readme",
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "devDependencies": {
+    "semantic-release": "^8.0.3"
+  }
 }

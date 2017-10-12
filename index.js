@@ -1,4 +1,4 @@
-const util = require('fs');
+const fs = require('fs');
 const filenamify = require('filenamify');
 
 var verbose = false
